@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SectionLayout">
+        <attr name="header_text" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="Entry">
+        <attr name="key_text" format="string"/>
+        <attr name="value_text" format="string"/>
+    </declare-styleable>
+
+</resources>

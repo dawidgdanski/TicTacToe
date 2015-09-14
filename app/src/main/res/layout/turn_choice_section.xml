@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<pl.dawidgdanski.tictactoe.ui.view.SectionLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:section="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    section:header_text="@string/who_starts">
+
+    <pl.dawidgdanski.tictactoe.ui.view.PlayerChoiceSection
+        android:id="@+id/turn_choice_radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</pl.dawidgdanski.tictactoe.ui.view.SectionLayout>

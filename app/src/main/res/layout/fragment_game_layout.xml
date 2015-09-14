@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:section="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="2">
+
+    <pl.dawidgdanski.tictactoe.game.view.TicTacToeView
+        android:id="@+id/game_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_weight="1"/>
+
+    <pl.dawidgdanski.tictactoe.ui.view.SectionLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="@dimen/fragment_game_layout_game_section_padding"
+        section:header_text="@string/game_info">
+
+        <pl.dawidgdanski.tictactoe.ui.view.Entry
+            android:id="@+id/game_state_entry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            section:key_text="@string/game_state"
+            section:value_text="@string/unknown"/>
+
+        <pl.dawidgdanski.tictactoe.ui.view.Entry
+            android:id="@+id/turn_entry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            section:key_text="@string/turn"
+            section:value_text="@string/unknown"/>
+
+    </pl.dawidgdanski.tictactoe.ui.view.SectionLayout>
+
+</LinearLayout>

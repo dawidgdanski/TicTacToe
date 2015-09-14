@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="tic_tac_toe">Tic Tac Toe</string>
+    <string name="who_starts">Who starts?</string>
+    <string name="player_o">Player O</string>
+    <string name="player_x">Player X</string>
+    <string name="human_vs_human">Human vs Human</string>
+    <string name="start">Start</string>
+    <string name="default_header_text">Header not set</string>
+    <string name="player_choice_text">Which player would you like to play?</string>
+    <string name="cpu_vs_cpu">Cpu vs Cpu</string>
+    <string name="human_vs_cpu">Human vs Cpu</string>
+    <string name="game_modes">Game modes:</string>
+    <string name="game_info">Game info:</string>
+    <string name="unknown">Unknown</string>
+    <string name="game_state">Game state:</string>
+    <string name="x_wins">Player X wins</string>
+    <string name="o_wins">Player O wins</string>
+    <string name="draw">Draw</string>
+    <string name="turn">Turn:</string>
+    <string name="game_not_finished_yet">Game is not finished yet</string>
+</resources>
